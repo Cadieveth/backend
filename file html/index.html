@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aplikasi Profile</title>
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+	
+	body {
+  		font-family: "Quicksand", sans-serif;
+  		margin: 0;
+	  	padding: 0;
+	  	background-color: #030712;
+	}
+ 
+	header {
+	 	display: inline;
+	}
+
+	nav {
+	  	background-color: #2E3840;
+	  	padding: 5px;
+	  	position: sticky;
+	  	top: 0;
+	  	text-align: center;
+	}
+
+	main {
+	  	padding: 20px;
+	  	display: flex;
+	  	gap: 1.5rem;
+	}
+
+	footer {
+	  	padding: 20px;
+	  	color: #fff;
+	  	background-color: #2E3840;
+	}
+
+	h2, h3 {
+	  	color: #000000;
+	  	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	}
+
+	h1 {
+	  	color: #ffffff;
+	  	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	}
+
+	#content {
+	  	flex: 5;
+	  	display: flex;
+	  	flex-flow: column nowrap;
+	  	gap: 1rem 2rem;
+	}
+
+	.profile header {
+	  	text-align: center;
+	}
+
+	.profile img {
+	  	width: 200px;
+	}
+
+	.card {
+	  	box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0);
+	  	background-color: #FCFCFC;
+	  	border-radius: 5px;
+	  	padding: 20px;
+	}
+
+
+	@media screen and (max-width: 1200px) {
+	  	main {
+			flex-flow: column nowrap;
+	  	}
+	  	main aside {
+			align-self: center;
+	  	}
+	}
+
+	@media screen and (max-width: 768px) {
+	  	nav ul {
+			justify-content: center;
+	  	}
+
+	  	main aside {
+			align-self: stretch;
+	  	}
+	}	
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+        	<h1>My Personal Information</h1>
+      	</nav>
+	</header>
+	
+	<main>
+		<article class="card profile">
+			<header>
+				<figure>
+					<img src="profile.png" alt="profile"/>
+				</figure>	
+			</header>
+			<section>
+            	<h3 align="center">Ade Christian</h3>
+				<p align="center">C215DSX0640</p>
+          	</section>
+		</article>
+		
+		<div id="content">
+			<table>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td width="575px">
+									<article class="card" id="about">
+										<h3 align="center">About me</h3>
+										<p align="justify">I am currently studying Accounting and Information Systems. In general, actively participates in various activities, both committees and campus organizations and outside campus. I personally like new things, looking for various experiences, initiative, being reliable, adaptable, flexible, good at communicating, totality, and able to work under pressure. Currently, I am a staff member of the Public Relations Division of the Student Executive Board of the Faculty of Economics and Business, Soegijapranata University, Semarang. I am also interested in graphic design, web development and web-based application development and have knowledge or experience in these fields</p>
+									</article>
+								</td>
+						
+								<td width="10px"></td>
+						
+								<td width="575px">
+									<article class="card" id="spec">
+										<h3 align="center">Experiences</h3>
+										<p align="justify">
+										<b>Content Writer – Bergerak Berdampak Batch 2</b><br>
+										Bergerak Berdampak is a volunteer organization in Indonesia that was founded to provide training and hone the younger generation's skills with the motto “from young people, by young people, for Indonesia”.<br>
+										<b>Cloud Computing Learning Path – Bangkit Academy 2023 by Google, GoTo, Traveloka</b><br>
+										Cloud Computing Learning Path Independent Study Activities include individual learning and the final project. Dicoding exists as a technology education platform. Bangkit also provides other platforms such as Google Cloud Skill Boost and Coursera which contain materials, labs, and learning evaluations.
+										</p>
+										
+									</article>
+								</td>
+							</tr>
+						</table>
+					</td>	
+				</tr>
+				
+				<tr>
+					<td width="10px" height="10px"></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<article class="card" id="home">
+						<h3 align="center">Find me in</h3>
+            				<table align="center">
+              					<tr align="center">
+                					<td>
+										<a class="social-media-icon" href="https://www.instagram.com/adechristian91/"><span class="fab fa-instagram"></span></a>
+										<a class="social-media-icon" href="https://www.linkedin.com/in/adechristian/"><span class="fab fa-linkedin"></span></a>
+										<a class="social-media-icon" href="https://www.youtube.com/@yustinusadechristian4669"><span class="fab fa-youtube"></span></a>
+									</td>
+              					</tr>
+            				</table>
+						</article>
+					</td>	
+				</tr>
+			</table>	
+		</div>
+	</main>
+	
+	<footer align="center">
+		<p>Becoming a Google Cloud Engineer &#169; 2023, Bangkit Academy</p>
+	</footer>
+</body>
+</html>
