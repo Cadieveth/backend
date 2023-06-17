@@ -1,0 +1,13 @@
+username	student-01-75ef24945c92@qwiklabs.net
+password	V9EJlBIDNm3u
+Project ID	qwiklabs-gcp-03-007675a1a001
+
+Project name
+qwiklabs-gcp-03-007675a1a001
+
+Project number
+33671173066
+
+Project ID
+qwiklabs-gcp-03-007675a1a001
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
